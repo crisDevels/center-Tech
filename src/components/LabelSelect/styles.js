@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const ImageBackground = styled.label`
+export const LabelSelectContent = styled.label`
   height: 90px;
-  width: 30%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

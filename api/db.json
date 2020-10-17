@@ -235,5 +235,47 @@
       "path": "/graphicard",
       "cover": "https://assets1.ignimgs.com/2019/04/05/graphicscards2019-blogroll-1554499813756.jpg?width=1280"
     }
+  ],
+  "MarcasMB" : [
+    {
+      "id": 1,
+      "name": "Asus",
+      "cover": "https://http2.mlstatic.com/motherboard-asus-rog-strix-z390-e-gaming-D_NQ_NP_782973-MEC41503208561_042020-F.jpg"
+    },
+    {
+      "id": 2,
+      "name": "GigaByte",
+      "cover": "https://www.imeqmo.com/web/image/product.image/4626/image?unique=a7af540"
+    },
+    {
+      "id": 3,
+      "name": "MSI",
+      "cover": "https://www.bhphotovideo.com/images/images1000x1000/msi_b360_gaming_plus_motherboard_1402525.jpg"
+    },
+    {
+      "id": 4,
+      "name": "ASRock",
+      "cover": "https://static.bhphoto.com/images/images1000x1000/1594818446_1576709.jpg"
+    }
+  ],
+  "MBRanges" : [
+    {
+      "id": 1,
+      "name": "Economic Range",
+      "description": "Son las placas más económicas del mercado, en su mayoria, disponen de una conectividad limitada (Linea H). Generalmente tiene un par de ranuras USB 3.0 y 4 USB 2.0. Cuenta con una ranuera M.2. La gran ventaja es que no limitan el rendimiento de ninguna tarjeta gráfica.",
+      "referencias": "Lineas H, A, B"
+    },
+    {
+      "id": 2,
+      "name": "Medium Range",
+      "description": "Son placas conocidas coloquialmente como todoterreno. Por lo que disponen de buena conectividad, ádemas cuentan con 4 o más ranuras USB 3.0 y en algunos casos con tipo C y 3.1. Poses un PCle adicional para M.2. Son compatibles con procesadores gama baja, media y alta (algunas).",
+      "referencias": "Lineas B, Z, X"
+    },
+    {
+      "id": 3,
+      "name": "Top Range",
+      "description": "Son placas base que en el mejor de los casos cuentan con 60 pistas PCle para procesadores, 48 para para tarjeta gráfica y 12 para SSD o memoria. La linea TRX son compatibles con Threadripper 3000 de Ryzen.",
+      "referencias": "Lineas Z, X, TRX"
+    }
   ]
 }

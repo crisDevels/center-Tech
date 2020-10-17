@@ -15,13 +15,17 @@ export const H2Title = styled.h2`
   position: absolute;
 `
 
-export const FlexDiv = styled.div`
+export const FlexDiv = styled.ul`
   display: flex;
   margin: 10px 0;
   align-items: center;
   justify-content: space-evenly;
   position: relative;
   z-index: 1;
+  padding-inline-start: 0px;
+`
+export const LiRanges = styled.li`
+  width: 30%;
 `
 
 export const Image = styled.img`
@@ -37,6 +41,19 @@ export const ButtonSelect = styled.button`
     color: #757575;
     margin: 0 4px;
   }
+`
+export const FlexMarca = styled.div`
+  display: flex;
+  align-items: center;
+`
+export const ContainerMarca = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px red;
+  width: 50%;
+  height: 50px;
 `
 
 export const Description = styled.p`

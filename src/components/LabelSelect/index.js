@@ -1,10 +1,10 @@
 import React from 'react'
-import { ImageBackground, Parragraph } from './styles'
+import { LabelSelectContent, Parragraph } from './styles'
 
 export const LabelSelect = (props) => (
-  <ImageBackground>
+  <LabelSelectContent>
     <Parragraph>
       {props.nameRef}
     </Parragraph>
-  </ImageBackground>
+  </LabelSelectContent>
 )
