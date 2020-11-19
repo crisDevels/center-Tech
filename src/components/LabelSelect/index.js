@@ -1,10 +1,10 @@
 import React from 'react'
-import { LabelSelectContent, Parragraph } from './styles'
+import { LabelSelectContent, SpaceContainer, ImgComponent, PNameRef} from './styles'
 
-export const LabelSelect = (props) => (
+export const LabelSelect = ({ cover }) => (
   <LabelSelectContent>
-    <Parragraph>
-      {props.nameRef}
-    </Parragraph>
+    <SpaceContainer>
+      <ImgComponent src={cover} alt='se da contexto a los components' />
+    </SpaceContainer>
   </LabelSelectContent>
 )

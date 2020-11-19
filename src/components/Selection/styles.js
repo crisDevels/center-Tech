@@ -3,16 +3,51 @@ import { fadeIn } from '../../styles/animations'
 
 export const BoxPrimary = styled.div`
   ${fadeIn()}
-  border: 1px solid #ddd;
+  border: 1px solid #c4c4c4;
   border-radius: 15px;
   text-align: center;
   padding: 0;
   margin: 10px 5px ;
 `
 
+export const DivFlexTitle = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+`
+
+export const ContainerLogoCategory = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(black, purple);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+`
+
+export const ImgHead = styled.img`
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+  filter: brightness(.3);
+`
+
 export const H2Title = styled.h2`
   color: white;
-  position: absolute;
+  margin: 0 0 0 10px;
+  text-decoration: underline;
 `
 
 export const FlexDiv = styled.ul`
@@ -22,6 +57,7 @@ export const FlexDiv = styled.ul`
   justify-content: space-evenly;
   position: relative;
   z-index: 1;
+  top: 40px;
   padding-inline-start: 0px;
 `
 export const LiRanges = styled.li`
@@ -45,20 +81,28 @@ export const ButtonSelect = styled.button`
 export const FlexMarca = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 `
-export const ContainerMarca = styled.div`
+export const ContainerDetails = styled.div`
+  background: #f1f1f1;
+  border-radius: 7px;
+  width: 95%;
+  height: 200px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, .25);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  box-shadow: 0 0 10px red;
-  width: 50%;
-  height: 50px;
+  background: #f1f1f1;
+  border-radius: 7px;
 `
 
-export const Description = styled.p`
-  color: #757575;
-  font-size: 14px;
+export const Description = styled.div`
+  background: #f3f3f3;
+  border-radius: 7px;
+  height: 100%;
+  width: 100%
 `
 export const DivHead = styled.div`
   position: relative;
@@ -67,18 +111,6 @@ export const DivHead = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
-`
-export const ImgHead = styled.img`
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  object-fit: cover;
-  overflow: hidden;
-  left: 0;
-  top: 0;
-  border-radius: 10px 10px 0 0;
-  z-index: 0;
-  filter: brightness(.7);
 `
 
 export const DivFlexButtonIcon = styled.div`
